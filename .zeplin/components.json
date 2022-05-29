@@ -1,9 +1,23 @@
 {
-    "projects": [
-        "62927166afb23d1511bff773"
-    ],
-    "styleguides": [
-        "62923cee2c8b06119d122b49"
-    ],
-    "components": []
+  "plugins": [
+    {
+      "name": "@zeplin/cli-connect-react-plugin",
+      "config": {
+        "tsDocgen": "react-docgen-typescript",
+        "tsConfigPath": "../tsconfig.json"
+      }
+    }
+  ],
+  "projects": ["62927166afb23d1511bff773"],
+  "styleguides": ["62923cee2c8b06119d122b49"],
+  "components": [
+    {
+      "path": "src/stories/Button.tsx",
+      "zeplinName": "Button",
+      "zeplinIds": ["6292716a1a8dbc1219fc647f"],
+      "wiki": {
+        "urlPath": "Button"
+      }
+    }
+  ]
 }
