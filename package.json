@@ -11,6 +11,7 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "@zeplin/cli": "^2.0.0",
     "@zeplin/sdk": "^1.13.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
@@ -68,6 +69,7 @@
     "@zeplin/cli-connect-react-plugin": "^1.1.1",
     "babel-plugin-named-exports-order": "^0.0.2",
     "prop-types": "^15.8.1",
+    "storybook-zeplin": "^1.7.2",
     "webpack": "^5.72.1"
   }
 }
