@@ -69,6 +69,7 @@
     "@zeplin/cli-connect-react-plugin": "^1.1.1",
     "babel-plugin-named-exports-order": "^0.0.2",
     "prop-types": "^15.8.1",
+    "storybook-addon-designs": "^6.2.1",
     "storybook-zeplin": "^1.7.2",
     "webpack": "^5.72.1"
   }

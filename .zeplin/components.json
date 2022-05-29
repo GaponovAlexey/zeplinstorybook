@@ -1,6 +1,13 @@
 {
   "plugin": [
     {
+      "name": "@zeplin/cli-connect-storybook-plugin",
+      "config": {
+        "url": "http://localhost:6006",
+        "startScript": "storybook"
+      }
+    },
+    {
       "name": "zeplin-cli-connect-plugin-react"
     }
   ],
@@ -9,7 +16,11 @@
   "components": [
     {
       "path": "src/stories/Button.tsx",
-      "zeplinIds": ["6293870e7c0460113e227cb0"]
+      "zeplinIds": ["6293870e7c0460113e227cb0"],
+      "storybook": {
+        "kind": "Design System/Button",
+        "stories": ["MyButton"]
+      }
     }
   ]
 }
