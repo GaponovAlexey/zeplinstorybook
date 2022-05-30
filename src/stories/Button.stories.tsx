@@ -7,19 +7,13 @@ export default {
   title: 'Button',
   component: Button,
   decorators: [withDesign],
-  args: {
-    type: 'figma',
-    url: 'https://www.figma.com/file/APEIbjDToVzYVy1SdRkhVt/Untitled?node-id=11%3A18',
-  },
 } as ComponentMeta<typeof Button>
 
 const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />
 
 export const Default = Template.bind({})
 
-Default.parameters = {
-  design: {
-    type: 'figma',
-    url: 'https://www.figma.com/file/APEIbjDToVzYVy1SdRkhVt/Untitled?node-id=11%3A18',
-  },
+Default.args = {
+  type: 'figma',
+  url: 'https://www.figma.com/file/APEIbjDToVzYVy1SdRkhVt/Untitled?node-id=11%3A18',
 }

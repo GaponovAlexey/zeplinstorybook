@@ -2,6 +2,7 @@ import pt from 'prop-types'
 export const Button = ({
   backgroundColor = '#0f0',
   label = 'Primary',
+  url = 'https://www.figma.com/file/APEIbjDToVzYVy1SdRkhVt/Untitled?node-id=11%3A18',
 }: any) => {
   const style = {
     backgroundColor,
@@ -9,7 +10,8 @@ export const Button = ({
     width: '50px',
     display: 'block',
   }
-  return <div style={style} >{label}</div>
+  return <img alt='ddd' src={url} >
+    {label}</img>
 }
 
 Button.pt = {
